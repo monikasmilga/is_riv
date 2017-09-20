@@ -82,9 +82,9 @@ class CreateI07PARDTable extends Migration {
 			$table->string('I07_KODAS_KS', 12)->nullable()->comment('Tiekėjo kodas');
 			$table->float('I07_KIEKIS_A', 12, 4)->nullable()->comment('Alternatyvus kiekis(naudojamas tik informacijos įdėjimui per webservisą)');
 			$table->string('I07_BAR_KODAS', 12)->nullable()->comment('Bar_kodas(naudojamas tik informacijos įdėjimui per webservisą)');
-			$table->string('I07_aprasymas1', 150)->nullable()->comment('Aprašymo laukas 1');
-			$table->string('I07_aprasymas2', 150)->nullable()->comment('Aprašymo laukas 2');
-			$table->string('I07_aprasymas3', 150)->nullable()->comment('Aprašymo laukas 3');
+			$table->string('I07_APRASYMAS1', 150)->nullable()->comment('Aprašymo laukas 1');
+			$table->string('I07_APRASYMAS2', 150)->nullable()->comment('Aprašymo laukas 2');
+			$table->string('I07_APRASYMAS3', 150)->nullable()->comment('Aprašymo laukas 3');
 		});
 	}
 
