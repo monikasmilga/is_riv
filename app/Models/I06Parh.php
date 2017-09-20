@@ -18,7 +18,7 @@ class I06Parh extends Model
         'I06_USERIS', 'I06_KODAS_AU', 'I06_KODAS_SM', 'I06_INTRASTAT', 'I06_DOK_REG',
         'I06_KODAS_AK', 'I06_SUMA_WK', 'I06_KODAS_LS_1', 'I06_KODAS_LS_2', 'I06_KODAS_LS_3',
         'I06_KODAS_LS_4', 'I06_VAL_POZ_PVM', 'I06_PVM_VAL', 'I06_WEB_POZ', 'I06_WEB_ATAS',
-        'I06_WEB_PERKELTA', 'I06_aprasymas1', 'I06_aprasymas2', 'I06_aprasymas3'
+        'I06_WEB_PERKELTA', 'I06_APRASYMAS1', 'I06_APRASYMAS2', 'I06_APRASYMAS3'
     ];
 
 }

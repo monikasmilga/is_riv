@@ -67,9 +67,9 @@ class CreateI06PARHTable extends Migration {
 			$table->integer('I06_WEB_POZ')->nullable()->comment('Web požymis');
 			$table->string('I06_WEB_ATAS', 13)->nullable()->comment('Web Ataskaita');
 			$table->integer('I06_WEB_PERKELTA')->nullable()->comment('Web perkelta');
-			$table->string('I06_aprasymas1', 150)->nullable()->comment('Aprašymo laukas 1');
-			$table->string('I06_aprasymas2', 150)->nullable()->comment('Aprašymo laukas 2');
-			$table->string('I06_aprasymas3', 150)->nullable()->comment('Aprašymo laukas 3');
+			$table->string('I06_APRASYMAS1', 150)->nullable()->comment('Aprašymo laukas 1');
+			$table->string('I06_APRASYMAS2', 150)->nullable()->comment('Aprašymo laukas 2');
+			$table->string('I06_APRASYMAS3', 150)->nullable()->comment('Aprašymo laukas 3');
 		});
 	}
 
